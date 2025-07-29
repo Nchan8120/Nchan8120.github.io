@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resume - Nathan Chan</title>
+  <link rel="stylesheet" href="styles.css"> <!-- optional: reuse your main CSS -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 2rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #363f73;
+    }
+
+    .resume-viewer {
+      margin-top: 2rem;
+      height: 80vh;
+      width: 100%;
+      border: none;
+    }
+
+    .download-btn {
+      display: block;
+      margin: 1.5rem auto 0;
+      padding: 0.75rem 1.5rem;
+      background-color: #0ea5e9;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+      text-align: center;
+      width: fit-content;
+    }
+
+    .download-btn:hover {
+      background-color: #3bb4f2;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>My Resume</h1>
+
+    <!-- Embedded resume PDF viewer -->
+    <iframe src="files/Nathan_Chan_Resume.pdf" class="resume-viewer"></iframe>
+
+    <!-- Download button -->
+    <a href="files/Nathan_Chan_Resume.pdf" download class="download-btn">📄 Download Resume</a>
+  </div>
+</body>
+</html>

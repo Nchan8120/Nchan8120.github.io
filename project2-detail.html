@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Montgomery County Crash Analysis</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link your main CSS -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff; 
+      color: #363f73;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    h1, h2 {
+      color: #363D73;
+    }
+
+    .section {
+      margin-bottom: 2rem;
+    }
+
+    .images {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+
+    .images img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .btn {
+      background-color: #0ea5e9;
+      color: #111827;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 4px;
+      font-weight: bold;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 1rem;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #cde3ee;
+    }
+
+    .back-link {
+      color: #363D73;
+      text-decoration: none;
+      display: inline-block;
+      margin-bottom: 2rem;
+    }
+
+    ul {
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <a href="index.html#projects" class="back-link">← Back to Projects</a>
+
+    <h1>Montgomery County Traffic Crash Analysis</h1>
+
+    <div class="section">
+      <h2>Overview</h2>
+      <ul>
+        <li>Analyzed crash data from Montgomery County, Maryland to identify key contributing factors behind injury-related and fatal crashes.</li>
+        <li>Cleaned and integrated over 300,000 records from three datasets (Drivers, Non-Motorists, Incidents) using Alteryx and SQL Server.</li>
+        <li>Modeled the data with a star schema and built dashboards in Power BI to visualize trends by weather, lighting, intersection type, and more.</li>
+        <li>Used PySpark and Snowflake for large-scale querying and pattern discovery involving substance abuse, collision types, and time-based factors.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Technologies Used</h2>
+      <ul>
+        <li>Alteryx (ETL)</li>
+        <li>SQL Server Management Studio (SSMS)</li>
+        <li>Power BI</li>
+        <li>Snowflake (Cloud Data Warehouse)</li>
+        <li>PySpark (Big Data Analysis)</li>
+        <li>Python</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Screenshots</h2>
+      <div class="images">
+        <img src="Images/crash-alteryx.png" alt="Crash dashboard screenshot 1">
+        <img src="images/crash-injury.png" alt="Crash dashboard screenshot 2">
+      </div>
+      <div class="images">
+        <img src="Images/crash-substance.png" alt="Crash dashboard screenshot 1">
+        <img src="images/crash-sql.png" alt="Crash dashboard screenshot 2">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
