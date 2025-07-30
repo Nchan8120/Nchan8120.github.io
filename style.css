@@ -216,6 +216,8 @@ body {
     border-radius: 20px; 
     background-image: linear-gradient(#74D7BB, #53C8B6, #35A99C); 
     padding: 1rem; 
+    min-width: 250px;
+    min-height: 400px;
 } 
 
 .icon { 
@@ -244,27 +246,13 @@ body {
     justify-content: space-between; 
 } 
 
-.contact-form-container { 
-    width: 50%; 
-} 
-
-.contact-form { 
-    display: flex; 
-    flex-direction: column; 
-} 
-
-.contact-form .form-controls { 
-    width: 80%; 
-    padding: 10px 0; 
-    margin: 1.67rem 0; 
-} 
-
-.contact-form .form-btn { 
-    width: 83%; 
-} 
-
 .contact-details { 
-    width: 50%; 
+    display: flex;
+    justify-content: center;      /* center the items horizontally */
+    gap: 4rem;                    /* space between email and phone */
+    flex-wrap: wrap;              /* allows wrapping on small screens */
+    text-align: center;           /* center text inside each block */
+    margin-top: 2rem;
 } 
 
 /* Footer Styles */

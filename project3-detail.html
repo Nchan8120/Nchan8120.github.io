@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Montgomery County Crash Analysis</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link your main CSS -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff; 
+      color: #363f73;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    h1, h2 {
+      color: #363D73;
+    }
+
+    .section {
+      margin-bottom: 2rem;
+    }
+
+    .images {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+
+    .images img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .btn {
+      background-color: #0ea5e9;
+      color: #111827;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 4px;
+      font-weight: bold;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 1rem;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #cde3ee;
+    }
+
+    .back-link {
+      color: #363D73;
+      text-decoration: none;
+      display: inline-block;
+      margin-bottom: 2rem;
+    }
+
+    ul {
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <a href="index.html#projects" class="back-link">← Back to Projects</a>
+
+    <h1>GBC Smart Waste Sorting</h1>
+
+    <div class="section">
+      <h2>Overview</h2>
+      <ul>
+        <li>This project is a garbage classification app built as part of our AASD 4013 Agile Methodologies course. It follows Scrum practices, with collaborative sprints, version control, model training, and evaluation pipelines.</li>
+        <li>The Trashnet Datset has 6 classes: cardboard, glass, metal, paper, plastic, and trash, with roughly 2,500 images organized in folders by class.</li>
+        <li>Trained a CNN to classify these images with >70% accuracy.</li>
+        <li>Used PySpark and Snowflake for large-scale querying and pattern discovery involving substance abuse, collision types, and time-based factors.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Technologies Used</h2>
+      <ul>
+        <li>Python, TensorFlow, Keras, Pandas</li>
+        <li>Jupyter Notebooks</li>
+        <li>Flask/FastAPI (backend)</li>
+        <li>Streamlit (frontend)</li>
+        <li>Jira (task tracking)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Screenshots</h2>
+      <div class="images">
+        <img src="Images/trash_matrix.png" alt="Crash dashboard screenshot 1">
+        <img src="images/trash_sort.png" alt="Crash dashboard screenshot 2">
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Github Link</h2>
+      <a href="https://github.com/BirajGtm/GBC-Smart-Waste-Sorting" target="_blank" class="btn">🔗 View on GitHub</a>
+    </div>
+
+  </div>
+</body>
+</html>
