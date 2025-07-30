@@ -162,38 +162,6 @@ body {
   font-weight: bold;
 }
 
-/* Portfolio section styles */
-.portfolio { 
-    margin: 4.8rem 0; 
-    padding: 0 5rem; 
-} 
-
-.port-card { 
-    padding: 0 !important; 
-    background: none !important; 
-    border: 2px solid #000; 
-} 
-
-.port-card .image { 
-    width: 100%; 
-} 
-
-.port-card .image img { 
-    height: 200px; 
-    width: 100%; 
-    border-top-right-radius: 20px; 
-    border-top-left-radius: 20px; 
-} 
-
-/* Services section styles */
-.services { 
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-    flex-direction: column; 
-    margin: 4.8rem 0; 
-    padding: 0 5rem; 
-} 
 
 .my-row { 
     display: flex; 
@@ -240,12 +208,6 @@ body {
     padding: 0 5rem; 
 } 
 
-.contact-content { 
-    display: flex; 
-    margin: 3rem 0; 
-    justify-content: space-between; 
-} 
-
 .contact-details { 
     display: flex;
     justify-content: center;      /* center the items horizontally */
@@ -261,43 +223,6 @@ body {
     color: #fff; 
     padding: 2rem; 
 } 
-
-.footer-list-items { 
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-    height: 50px; 
-    width: 50px; 
-    margin: 1rem 1rem 0 1rem; 
-    border-radius: 50%; 
-    background-color: #53C8B6; 
-} 
-
-.footer-links { 
-    font-size: 24px; 
-    color: #fff; 
-    text-decoration: none; 
-} 
-
-.social-links { 
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-} 
-
-.footer-menu { 
-    padding: 0 5rem; 
-} 
-
-.footer-menu .footer-menu-list { 
-    display: flex; 
-    list-style: none; 
-} 
-
-
-
-
-
 
 /* utility classes */
 .greet-heading { 
